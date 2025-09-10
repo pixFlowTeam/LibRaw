@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <chrono>
+#include <filesystem>
 
 RawProcessor::RawProcessor() : processor_(std::make_unique<LibRaw>()), isLoaded_(false) { configureHighQuality(); }
 
@@ -106,6 +107,13 @@ bool RawProcessor::saveAsWebP(const std::string &outputPath, int quality)
   try
   {
     auto save_start = std::chrono::high_resolution_clock::now();
+
+    // 确保输出目录存在
+    std::filesystem::path outputDir = std::filesystem::path(outputPath).parent_path();
+    if (!outputDir.empty() && !std::filesystem::exists(outputDir))
+    {
+      std::filesystem::create_directories(outputDir);
+    }
 
     std::vector<int> compression_params;
     compression_params.push_back(cv::IMWRITE_WEBP_QUALITY);
@@ -301,9 +309,22 @@ cv::Mat RawProcessor::convertToOpenCV(const libraw_processed_image_t *processed)
   if (bps == 16)
   {
     cv::Mat image8;
-    // 使用更精确的转换：16位范围是0-65535，8位范围是0-255
-    // 使用255.0/65535.0 ≈ 0.00389 作为缩放因子
-    image.convertTo(image8, CV_8U, 255.0 / 65535.0);
+    if (channels == 1)
+    {
+      image.convertTo(image8, CV_8UC1, 255.0 / 65535.0);
+    }
+    else if (channels == 3)
+    {
+      image.convertTo(image8, CV_8UC3, 255.0 / 65535.0);
+    }
+    else if (channels == 4)
+    {
+      image.convertTo(image8, CV_8UC4, 255.0 / 65535.0);
+    }
+    else
+    {
+      image.convertTo(image8, CV_8U, 255.0 / 65535.0);
+    }
     return image8;
   }
 
