@@ -168,7 +168,10 @@ build_platform() {
                 -DCMAKE_BUILD_TYPE="$BUILD_TYPE"
                 -DBINARY_PACKAGE_BUILD=ON
                 -DLIBRAW_ENABLE_WERROR=OFF
-                -DBUILD_EXAMPLES=ON
+                -DCMAKE_CXX_FLAGS="-w -O2 -D_GNU_SOURCE -D_USE_MATH_DEFINES -DWIN32"
+                -DCMAKE_C_FLAGS="-w -O2 -D_GNU_SOURCE -D_USE_MATH_DEFINES -DWIN32"
+                -DCMAKE_EXE_LINKER_FLAGS="-lws2_32 -lwsock32 -lmswsock"
+                -DBUILD_EXAMPLES=OFF
                 -DBUILD_TESTING=OFF
                 -DBUILD_DOCS=OFF
             )
