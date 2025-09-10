@@ -174,6 +174,8 @@ build_platform() {
                 -DBUILD_EXAMPLES=OFF
                 -DBUILD_TESTING=OFF
                 -DBUILD_DOCS=OFF
+                -DCMAKE_CXX_FLAGS="-w -O2 -D_GNU_SOURCE -D_USE_MATH_DEFINES -DWIN32 -DNO_LCMS"
+                -DCMAKE_C_FLAGS="-w -O2 -D_GNU_SOURCE -D_USE_MATH_DEFINES -DWIN32 -DNO_LCMS"
             )
             ;;
             
@@ -195,6 +197,8 @@ build_platform() {
                 -DBUILD_EXAMPLES=ON
                 -DBUILD_TESTING=OFF
                 -DBUILD_DOCS=OFF
+                -DCMAKE_CXX_FLAGS="-DNO_LCMS"
+                -DCMAKE_C_FLAGS="-DNO_LCMS"
             )
             ;;
             
@@ -216,6 +220,8 @@ build_platform() {
                 -DBUILD_EXAMPLES=ON
                 -DBUILD_TESTING=OFF
                 -DBUILD_DOCS=OFF
+                -DCMAKE_CXX_FLAGS="-DNO_LCMS"
+                -DCMAKE_C_FLAGS="-DNO_LCMS"
             )
             ;;
             
@@ -236,6 +242,8 @@ build_platform() {
                 -DBUILD_EXAMPLES=ON
                 -DBUILD_TESTING=OFF
                 -DBUILD_DOCS=OFF
+                -DCMAKE_CXX_FLAGS="-DNO_LCMS"
+                -DCMAKE_C_FLAGS="-DNO_LCMS"
             )
             ;;
     esac
