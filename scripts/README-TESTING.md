@@ -126,7 +126,7 @@
 ### 在构建脚本中添加测试
 ```bash
 # 构建完成后自动运行测试
-./scripts/build-cross-platform.sh
+./scripts/build-unified.sh
 ./scripts/test-binaries.sh
 ```
 

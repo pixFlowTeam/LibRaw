@@ -1,19 +1,21 @@
 # LibRaw 跨平台构建
 
-本项目为LibRaw提供了跨平台构建支持，支持Windows x86_64和macOS ARM64平台，实现独立发布（不依赖系统库）。
+本项目为LibRaw提供了跨平台构建支持，支持Windows x64、macOS ARM64、macOS x64和Linux x64平台，实现独立发布（不依赖系统库）。
 
 ## 项目结构
 
 ```
 LibRaw/
 ├── scripts/                          # 构建脚本
-│   └── build-cross-platform.sh      # 跨平台构建脚本
+│   └── build-unified.sh             # 统一跨平台构建脚本
 ├── docs/                             # 文档
 │   ├── BUILD-CROSS-PLATFORM.md      # 详细构建指南
 │   └── BUILD-RESULTS.md             # 构建结果报告
 ├── cmake/                            # CMake配置文件
-│   ├── CMakeLists.txt               # 备用CMake配置
-│   └── libraw.pc.in                 # CMake专用pkg-config
+│   ├── toolchains/                  # 交叉编译工具链
+│   ├── build-type.cmake             # 构建类型配置
+│   ├── compiler-flags.cmake         # 编译器标志
+│   └── compiler-warnings.cmake      # 编译器警告
 ├── CMakeLists.txt                    # 主CMake配置文件
 ├── libraw.pc.in                      # 原始pkg-config模板
 ├── README-CROSS-PLATFORM.md          # 本文件
@@ -23,28 +25,36 @@ LibRaw/
 
 ## 支持的平台
 
-- **Windows x86_64**: 使用MinGW-w64工具链
+- **Windows x64**: 使用MinGW-w64工具链
 - **macOS ARM64**: 使用Clang工具链
+- **macOS x64**: 使用Clang工具链
+- **Linux x64**: 使用GCC工具链
 
 ## 快速开始
 
 ### 1. 构建所有平台
 ```bash
-./scripts/build-cross-platform.sh all
+./scripts/build-unified.sh all
 ```
 
 ### 2. 构建特定平台
 ```bash
-# Windows x86_64
-./scripts/build-cross-platform.sh windows
+# Windows x64
+./scripts/build-unified.sh windows-x64
 
 # macOS ARM64
-./scripts/build-cross-platform.sh macos
+./scripts/build-unified.sh macos-arm64
+
+# macOS x64
+./scripts/build-unified.sh macos-x64
+
+# Linux x64
+./scripts/build-unified.sh linux-x64
 ```
 
 ### 3. 清理构建目录
 ```bash
-./scripts/build-cross-platform.sh clean
+./scripts/build-unified.sh --clean all
 ```
 
 ## 构建输出
@@ -59,7 +69,7 @@ build/
 │       ├── raw-identify            # 770KB
 │       ├── simple_dcraw           # 1.1MB
 │       └── ...                     # 其他示例程序
-└── windows-x86_64/                 # Windows x86_64构建输出
+└── windows-x64/                    # Windows x64构建输出
     ├── lib/libraw.a                # 静态库 (1.7MB)
     └── bin/                        # 可执行程序
         ├── raw-identify.exe        # 3.8MB
@@ -93,7 +103,7 @@ clang --version
 
 **Windows (MinGW-w64)**:
 ```bash
-x86_64-w64-mingw32-g++ -I./libraw -L./build/windows-x86_64/lib -lraw your_program.cpp -o your_program.exe
+x86_64-w64-mingw32-g++ -I./libraw -L./build/windows-x64/lib -lraw your_program.cpp -o your_program.exe
 ```
 
 **macOS (Clang)**:
@@ -138,7 +148,7 @@ make install
 ./build/macos-arm64/bin/raw-identify --help
 
 # Windows (在Windows系统上)
-./build/windows-x86_64/bin/raw-identify.exe --help
+./build/windows-x64/bin/raw-identify.exe --help
 ```
 
 ## 故障排除
@@ -154,7 +164,7 @@ make install
 ```bash
 # 检查生成的二进制文件架构
 file build/macos-arm64/bin/raw-identify
-file build/windows-x86_64/bin/raw-identify.exe
+file build/windows-x64/bin/raw-identify.exe
 
 # 检查库依赖 (macOS)
 otool -L build/macos-arm64/bin/raw-identify

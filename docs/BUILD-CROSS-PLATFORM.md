@@ -46,14 +46,14 @@ clang++ --version
 
 ```bash
 # 构建所有平台
-./scripts/build-cross-platform.sh all
+./scripts/build-unified.sh all
 
 # 构建特定平台
-./scripts/build-cross-platform.sh windows    # Windows x86_64
-./scripts/build-cross-platform.sh macos      # macOS ARM64
+./scripts/build-unified.sh windows    # Windows x86_64
+./scripts/build-unified.sh macos      # macOS ARM64
 
 # 清理构建目录
-./scripts/build-cross-platform.sh clean
+./scripts/build-unified.sh clean
 ```
 
 ### 方法2: 使用CMake
@@ -116,7 +116,7 @@ build/
 │       ├── 4channels              # 785KB
 │       ├── rawtextdump            # 752KB
 │       └── unprocessed_raw        # 769KB
-└── windows-x86_64/                 # Windows x86_64构建输出
+└── windows-x64/                    # Windows x64构建输出
     ├── lib/
     │   └── libraw.a                # 静态库 (1.7MB)
     └── bin/                        # 可执行程序
@@ -137,7 +137,7 @@ build/
 
 **Windows (MinGW-w64)**:
 ```bash
-x86_64-w64-mingw32-g++ -I./libraw -L./build/windows-x86_64/lib -lraw your_program.cpp -o your_program.exe
+x86_64-w64-mingw32-g++ -I./libraw -L./build/windows-x64/lib -lraw your_program.cpp -o your_program.exe
 ```
 
 **macOS (Clang)**:
@@ -198,8 +198,8 @@ int main() {
 ./build/macos-arm64/bin/simple_dcraw image.raw
 
 # Windows (在Windows系统上)
-./build/windows-x86_64/bin/raw-identify.exe --help
-./build/windows-x86_64/bin/simple_dcraw.exe image.raw
+./build/windows-x64/bin/raw-identify.exe --help
+./build/windows-x64/bin/simple_dcraw.exe image.raw
 ```
 
 ## 故障排除
@@ -216,13 +216,13 @@ int main() {
 ```bash
 # 检查生成的二进制文件架构
 file build/macos-arm64/bin/raw-identify
-file build/windows-x86_64/bin/raw-identify.exe
+file build/windows-x64/bin/raw-identify.exe
 
 # 检查库依赖 (macOS)
 otool -L build/macos-arm64/bin/raw-identify
 
 # 检查库依赖 (Windows)
-ldd build/windows-x86_64/bin/raw-identify.exe
+ldd build/windows-x64/bin/raw-identify.exe
 
 # 启用详细输出
 make VERBOSE=1

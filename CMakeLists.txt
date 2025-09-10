@@ -1,24 +1,41 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.22)
+
+cmake_policy(SET CMP0011 NEW)
+cmake_policy(SET CMP0025 NEW)
+cmake_policy(SET CMP0067 NEW)
+
+# 避免源码树污染
+set(CMAKE_DISABLE_SOURCE_CHANGES ON)
+set(CMAKE_DISABLE_IN_SOURCE_BUILD ON)
+
+if(CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
+  message(FATAL_ERROR "In-source builds are not permitted. Make a separate folder for building:\nmkdir build; cd build; cmake ..\nBefore that, remove the files already created:\nrm -rf CMakeCache.txt CMakeFiles")
+endif()
+
 project(LibRaw VERSION 0.21.4 LANGUAGES C CXX)
 
-# 设置C++标准
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+include(FeatureSummary)
+include(GNUInstallDirs)
 
-# 设置编译选项
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -w")
+# 设置模块路径
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/" ${CMAKE_MODULE_PATH})
 
-# 平台特定设置
-if(WIN32)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libgcc -static-libstdc++")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -static-libgcc -static-libstdc++")
-    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-libstdc++ -lws2_32 -lm")
-elseif(APPLE)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch arm64 -mmacosx-version-min=11.0")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch arm64 -mmacosx-version-min=11.0")
-    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -arch arm64 -mmacosx-version-min=11.0 -lm")
-endif()
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+# 构建选项
+option(BINARY_PACKAGE_BUILD "Sets march optimization to generic" OFF)
+option(LIBRAW_ENABLE_DEBUG_INFO "Whether to generate debug info or not." ON)
+option(LIBRAW_ENABLE_WERROR "Stop and fail the build, if a compiler warning is triggered." ON)
+option(LIBRAW_ENABLE_LTO "Add appropriate flag to the compile and link command lines, enabling link-time optimization." OFF)
+option(BUILD_EXAMPLES "Build example programs" ON)
+option(BUILD_TESTING "Build the testing tree." OFF)
+option(BUILD_DOCS "Build the documentation." OFF)
+
+# 包含构建配置
+include(build-type)
+include(compiler-flags)
+include(compiler-warnings)
 
 # 包含目录
 include_directories(.)
@@ -120,20 +137,44 @@ set(LIBRAW_HEADERS
 )
 
 # 创建静态库
-add_library(libraw STATIC ${LIBRAW_SOURCES} ${LIBRAW_HEADERS})
+add_library(libraw STATIC ${LIBRAW_SOURCES})
 
-# 设置编译定义
+# 设置目标属性
+target_include_directories(libraw PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/libraw>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/internal>
+    $<INSTALL_INTERFACE:include/libraw>
+)
+
 target_compile_definitions(libraw PRIVATE LIBRAW_NOTHREADS)
+
+# 设置输出目录
+set_target_properties(libraw PROPERTIES
+    ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
+    LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
 
 # 安装头文件
 install(FILES ${LIBRAW_HEADERS} DESTINATION include/libraw)
 
 # 安装库文件
-install(TARGETS libraw DESTINATION lib)
+install(TARGETS libraw
+    EXPORT LibRawTargets
+    ARCHIVE DESTINATION lib
+    LIBRARY DESTINATION lib
+    RUNTIME DESTINATION bin
+)
+
+# 创建导出文件
+install(EXPORT LibRawTargets
+    FILE LibRawTargets.cmake
+    NAMESPACE LibRaw::
+    DESTINATION lib/cmake/LibRaw
+)
 
 # 示例程序
-option(BUILD_EXAMPLES "Build example programs" ON)
-
 if(BUILD_EXAMPLES)
     # C++示例程序
     set(CPP_SAMPLES
@@ -144,7 +185,7 @@ if(BUILD_EXAMPLES)
         simple_dcraw
         multirender_test
         postprocessing_benchmark
-        mem_image
+        mem_image_sample
         dcraw_emu
     )
     
@@ -152,6 +193,12 @@ if(BUILD_EXAMPLES)
         add_executable(${sample} samples/${sample}.cpp)
         target_link_libraries(${sample} libraw)
         target_compile_definitions(${sample} PRIVATE LIBRAW_NOTHREADS)
+        
+        # 设置输出目录
+        set_target_properties(${sample} PROPERTIES
+            RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+        )
+        
         install(TARGETS ${sample} DESTINATION bin)
     endforeach()
     
@@ -159,6 +206,12 @@ if(BUILD_EXAMPLES)
     add_executable(dcraw_half samples/dcraw_half.c)
     target_link_libraries(dcraw_half libraw)
     target_compile_definitions(dcraw_half PRIVATE LIBRAW_NOTHREADS)
+    
+    # 设置输出目录
+    set_target_properties(dcraw_half PROPERTIES
+        RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+    )
+    
     install(TARGETS dcraw_half DESTINATION bin)
 endif()
 
