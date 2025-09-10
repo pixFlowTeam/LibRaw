@@ -1,0 +1,39 @@
+# 构建输出目录
+build/
+build-*/
+object/
+bin/
+lib/
+
+# 编译中间文件
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.dylib
+*.so
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 备份文件
+*.bak
+*.backup
+
+# 构建脚本（可选，根据需要添加）
+# scripts/build-cross-platform-fixed.sh
