@@ -1,6 +1,6 @@
-# 构建输出目录
-build/
-build-*/
+# 构建输出目录 先忽略
+# build/
+# build-*/
 object/
 bin/
 lib/
@@ -35,5 +35,3 @@ Thumbs.db
 *.bak
 *.backup
 
-# 构建脚本（可选，根据需要添加）
-# scripts/build-cross-platform-fixed.sh

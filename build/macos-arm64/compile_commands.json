@@ -1,0 +1,536 @@
+[
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/libraw_c_api.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/libraw_c_api.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/libraw_c_api.cpp",
+  "output": "CMakeFiles/libraw.dir/src/libraw_c_api.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/libraw_datastream.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/libraw_datastream.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/libraw_datastream.cpp",
+  "output": "CMakeFiles/libraw.dir/src/libraw_datastream.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/canon_600.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/canon_600.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/canon_600.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/canon_600.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/crx.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/crx.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/crx.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/crx.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/pana8.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/pana8.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/pana8.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/pana8.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/decoders_dcraw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_dcraw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_dcraw.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/decoders_dcraw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/sonycc.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/sonycc.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/sonycc.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/sonycc.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decompressors/losslessjpeg.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decompressors/losslessjpeg.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decompressors/losslessjpeg.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decompressors/losslessjpeg.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_libraw_dcrdefs.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_libraw_dcrdefs.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/decoders_libraw_dcrdefs.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/olympus14.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/olympus14.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/olympus14.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/olympus14.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/decoders_libraw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_libraw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/decoders_libraw.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/decoders_libraw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/dng.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/dng.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/dng.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/dng.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/fp_dng.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/fp_dng.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/fp_dng.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/fp_dng.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/fuji_compressed.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/fuji_compressed.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/fuji_compressed.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/fuji_compressed.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/generic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/generic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/generic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/generic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/kodak_decoders.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/kodak_decoders.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/kodak_decoders.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/kodak_decoders.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/load_mfbacks.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/load_mfbacks.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/load_mfbacks.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/load_mfbacks.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/smal.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/smal.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/smal.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/smal.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/unpack_thumb.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/unpack_thumb.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/unpack_thumb.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/unpack_thumb.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/decoders/unpack.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/unpack.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/decoders/unpack.cpp",
+  "output": "CMakeFiles/libraw.dir/src/decoders/unpack.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/aahd_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/aahd_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/aahd_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/aahd_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/ahd_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/ahd_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/ahd_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/ahd_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/dcb_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/dcb_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/dcb_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/dcb_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/dht_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/dht_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/dht_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/dht_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/misc_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/misc_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/misc_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/misc_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/demosaic/xtrans_demosaic.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/xtrans_demosaic.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/demosaic/xtrans_demosaic.cpp",
+  "output": "CMakeFiles/libraw.dir/src/demosaic/xtrans_demosaic.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/integration/dngsdk_glue.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/integration/dngsdk_glue.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/integration/dngsdk_glue.cpp",
+  "output": "CMakeFiles/libraw.dir/src/integration/dngsdk_glue.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/integration/rawspeed_glue.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/integration/rawspeed_glue.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/integration/rawspeed_glue.cpp",
+  "output": "CMakeFiles/libraw.dir/src/integration/rawspeed_glue.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/adobepano.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/adobepano.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/adobepano.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/adobepano.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/canon.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/canon.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/canon.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/canon.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/ciff.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/ciff.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/ciff.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/ciff.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/cr3_parser.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/cr3_parser.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/cr3_parser.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/cr3_parser.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/epson.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/epson.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/epson.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/epson.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/exif_gps.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/exif_gps.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/exif_gps.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/exif_gps.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/fuji.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/fuji.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/fuji.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/fuji.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/identify_tools.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/identify_tools.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/identify_tools.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/identify_tools.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/identify.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/identify.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/identify.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/identify.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/kodak.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/kodak.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/kodak.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/kodak.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/leica.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/leica.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/leica.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/leica.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/makernotes.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/makernotes.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/makernotes.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/makernotes.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/mediumformat.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/mediumformat.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/mediumformat.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/mediumformat.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/minolta.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/minolta.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/minolta.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/minolta.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/misc_parsers.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/misc_parsers.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/misc_parsers.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/misc_parsers.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/nikon.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/nikon.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/nikon.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/nikon.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/normalize_model.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/normalize_model.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/normalize_model.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/normalize_model.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/olympus.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/olympus.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/olympus.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/olympus.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/hasselblad_model.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/hasselblad_model.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/hasselblad_model.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/hasselblad_model.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/p1.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/p1.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/p1.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/p1.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/pentax.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/pentax.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/pentax.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/pentax.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/samsung.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/samsung.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/samsung.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/samsung.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/sony.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/sony.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/sony.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/sony.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/metadata/tiff.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/tiff.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/metadata/tiff.cpp",
+  "output": "CMakeFiles/libraw.dir/src/metadata/tiff.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/aspect_ratio.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/aspect_ratio.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/aspect_ratio.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/aspect_ratio.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/dcraw_process.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/dcraw_process.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/dcraw_process.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/dcraw_process.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/mem_image.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/mem_image.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/mem_image.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/mem_image.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/postprocessing_aux.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_aux.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_aux.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/postprocessing_aux.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_utils_dcrdefs.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_utils_dcrdefs.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/postprocessing_utils_dcrdefs.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/postprocessing/postprocessing_utils.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_utils.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/postprocessing/postprocessing_utils.cpp",
+  "output": "CMakeFiles/libraw.dir/src/postprocessing/postprocessing_utils.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/preprocessing/ext_preprocess.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/ext_preprocess.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/ext_preprocess.cpp",
+  "output": "CMakeFiles/libraw.dir/src/preprocessing/ext_preprocess.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/preprocessing/raw2image.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/raw2image.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/raw2image.cpp",
+  "output": "CMakeFiles/libraw.dir/src/preprocessing/raw2image.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/preprocessing/subtract_black.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/subtract_black.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/preprocessing/subtract_black.cpp",
+  "output": "CMakeFiles/libraw.dir/src/preprocessing/subtract_black.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/tables/cameralist.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/cameralist.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/cameralist.cpp",
+  "output": "CMakeFiles/libraw.dir/src/tables/cameralist.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/tables/colorconst.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/colorconst.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/colorconst.cpp",
+  "output": "CMakeFiles/libraw.dir/src/tables/colorconst.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/tables/colordata.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/colordata.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/colordata.cpp",
+  "output": "CMakeFiles/libraw.dir/src/tables/colordata.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/tables/wblists.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/wblists.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/tables/wblists.cpp",
+  "output": "CMakeFiles/libraw.dir/src/tables/wblists.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/curves.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/curves.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/curves.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/curves.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/decoder_info.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/decoder_info.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/decoder_info.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/decoder_info.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/init_close_utils.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/init_close_utils.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/init_close_utils.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/init_close_utils.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/open.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/open.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/open.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/open.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/phaseone_processing.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/phaseone_processing.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/phaseone_processing.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/phaseone_processing.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/read_utils.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/read_utils.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/read_utils.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/read_utils.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/thumb_utils.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/thumb_utils.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/thumb_utils.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/thumb_utils.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/utils_dcraw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/utils_dcraw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/utils_dcraw.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/utils_dcraw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/utils/utils_libraw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/utils_libraw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/utils/utils_libraw.cpp",
+  "output": "CMakeFiles/libraw.dir/src/utils/utils_libraw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/write/apply_profile.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/apply_profile.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/apply_profile.cpp",
+  "output": "CMakeFiles/libraw.dir/src/write/apply_profile.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/write/file_write.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/file_write.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/file_write.cpp",
+  "output": "CMakeFiles/libraw.dir/src/write/file_write.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/write/tiff_writer.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/tiff_writer.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/write/tiff_writer.cpp",
+  "output": "CMakeFiles/libraw.dir/src/write/tiff_writer.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/x3f/x3f_parse_process.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/x3f/x3f_parse_process.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/x3f/x3f_parse_process.cpp",
+  "output": "CMakeFiles/libraw.dir/src/x3f/x3f_parse_process.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/libraw.dir/src/x3f/x3f_utils_patched.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/x3f/x3f_utils_patched.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/src/x3f/x3f_utils_patched.cpp",
+  "output": "CMakeFiles/libraw.dir/src/x3f/x3f_utils_patched.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/raw-identify.dir/samples/raw-identify.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/raw-identify.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/raw-identify.cpp",
+  "output": "CMakeFiles/raw-identify.dir/samples/raw-identify.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/unprocessed_raw.dir/samples/unprocessed_raw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/unprocessed_raw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/unprocessed_raw.cpp",
+  "output": "CMakeFiles/unprocessed_raw.dir/samples/unprocessed_raw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/4channels.dir/samples/4channels.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/4channels.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/4channels.cpp",
+  "output": "CMakeFiles/4channels.dir/samples/4channels.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/rawtextdump.dir/samples/rawtextdump.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/rawtextdump.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/rawtextdump.cpp",
+  "output": "CMakeFiles/rawtextdump.dir/samples/rawtextdump.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/simple_dcraw.dir/samples/simple_dcraw.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/simple_dcraw.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/simple_dcraw.cpp",
+  "output": "CMakeFiles/simple_dcraw.dir/samples/simple_dcraw.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/multirender_test.dir/samples/multirender_test.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/multirender_test.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/multirender_test.cpp",
+  "output": "CMakeFiles/multirender_test.dir/samples/multirender_test.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/postprocessing_benchmark.dir/samples/postprocessing_benchmark.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/postprocessing_benchmark.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/postprocessing_benchmark.cpp",
+  "output": "CMakeFiles/postprocessing_benchmark.dir/samples/postprocessing_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/mem_image_sample.dir/samples/mem_image_sample.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/mem_image_sample.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/mem_image_sample.cpp",
+  "output": "CMakeFiles/mem_image_sample.dir/samples/mem_image_sample.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang++ -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -g3 -Wframe-larger-than=4096 -Wlarger-than=32768 -O3 -DNDEBUG -O3 -std=c++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/dcraw_emu.dir/samples/dcraw_emu.cpp.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/dcraw_emu.cpp",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/dcraw_emu.cpp",
+  "output": "CMakeFiles/dcraw_emu.dir/samples/dcraw_emu.cpp.o"
+},
+{
+  "directory": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64",
+  "command": "/usr/bin/clang -DLIBRAW_NOTHREADS -DNDEBUG -D__APPLE__ -D__aarch64__ -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/. -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/libraw -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/internal -I/Users/fuguoqiang/Desktop/bridge/构建/LibRaw -DNO_LCMS -O3 -DNDEBUG -O3 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=11.0 -fPIE -fvisibility=hidden -o CMakeFiles/dcraw_half.dir/samples/dcraw_half.c.o -c /Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/dcraw_half.c",
+  "file": "/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/samples/dcraw_half.c",
+  "output": "CMakeFiles/dcraw_half.dir/samples/dcraw_half.c.o"
+}
+]

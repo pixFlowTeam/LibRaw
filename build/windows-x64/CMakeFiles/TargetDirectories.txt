@@ -1,0 +1,7 @@
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/libraw.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/edit_cache.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/rebuild_cache.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/list_install_components.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/install.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/install/local.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/windows-x64/CMakeFiles/install/strip.dir

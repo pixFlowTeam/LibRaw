@@ -1,0 +1,17 @@
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/libraw.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/raw-identify.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/unprocessed_raw.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/4channels.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/rawtextdump.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/simple_dcraw.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/multirender_test.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/postprocessing_benchmark.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/mem_image_sample.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/dcraw_emu.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/dcraw_half.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/edit_cache.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/rebuild_cache.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/list_install_components.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/install.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/install/local.dir
+/Users/fuguoqiang/Desktop/bridge/构建/LibRaw/build/macos-arm64/CMakeFiles/install/strip.dir
