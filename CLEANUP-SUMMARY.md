@@ -1,56 +1,60 @@
-# 文件清理总结
+# LibRaw 构建系统清理总结
 
-## 问题描述
+## 统一构建系统
 
-在开发过程中，创建了两个构建脚本文件：
-- `scripts/build-cross-platform-fixed.sh` - 旧版本（修正版）
-- `scripts/build-unified.sh` - 新版本（标准命名版）
+LibRaw 现在使用统一的构建系统，与 RawSpeed 保持一致的风格：
 
-## 文件区别
+### 构建脚本
+- `scripts/build-unified.sh` - 统一跨平台构建脚本
 
-### 旧版本 (`build-cross-platform-fixed.sh`)
-- 使用旧的目录命名：`build-aarch64-apple-darwin/`, `build-x86_64-w64-mingw32/`
-- 目标平台名称：`aarch64-apple-darwin`, `x86_64-w64-mingw32`
-- 相对路径：`../src`, `../libraw` 等
+### 支持平台
+- `macos-arm64` - macOS Apple Silicon
+- `macos-x64` - macOS Intel  
+- `windows-x64` - Windows 64位 (MinGW-w64)
+- `linux-x64` - Linux 64位
+- `all` - 所有支持的平台
 
-### 新版本 (`build-unified.sh`)
-- 使用标准目录命名：`build/macos-arm64/`, `build/windows-x64/`
-- 目标平台名称：`macos-arm64`, `windows-x64`
-- 相对路径：`../../src`, `../../libraw` 等
+### 特性
+- 统一的命令行接口
+- 支持所有平台构建
+- 彩色输出和进度显示
+- 错误处理和回退
+- 与 RawSpeed 构建脚本风格一致
 
 ## 清理操作
 
-✅ **已删除旧版本文件**：`scripts/build-cross-platform-fixed.sh`  
-✅ **保留新版本文件**：`scripts/build-unified.sh`  
-✅ **更新文档引用**：所有文档都指向新版本脚本  
+✅ **统一构建脚本**：`scripts/build-unified.sh`  
+✅ **支持所有平台**：4 个主要平台 + all 选项  
+✅ **更新文档引用**：所有文档都指向统一构建脚本  
+✅ **删除冗余脚本**：清理了不再需要的测试和构建脚本
 
-## 当前状态
+## 使用示例
 
-### 构建脚本
-- **唯一脚本**：`scripts/build-unified.sh`
-- **功能完整**：支持Windows x86_64和macOS ARM64
-- **标准命名**：符合开源项目规范
-
-### 构建目录结构
-```
-build/
-├── macos-arm64/          # macOS ARM64构建输出
-└── windows-x64/           # Windows x64构建输出
-```
-
-### 使用方法
 ```bash
 # 构建所有平台
 ./scripts/build-unified.sh all
 
 # 构建特定平台
-./scripts/build-unified.sh windows
-./scripts/build-unified.sh macos
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh windows-x64 --clean
 
-# 清理构建目录
-./scripts/build-unified.sh clean
+# 查看帮助
+./scripts/build-unified.sh --help
 ```
 
-## 结论
+## 文档更新
 
-现在项目结构清晰，只有一个构建脚本，使用标准的目录命名规范，完全符合开源项目的最佳实践。
+所有相关文档已更新以反映新的统一构建系统：
+
+- `README-CROSS-PLATFORM.md` - 跨平台构建说明
+- `scripts/README-TESTING.md` - 测试说明
+- `docs/BUILD-CROSS-PLATFORM.md` - 详细构建指南
+- `PROJECT-STRUCTURE.md` - 项目结构说明
+
+## 总结
+
+LibRaw 的构建系统现在完全统一，提供了：
+- 简单易用的命令行接口
+- 全面的平台支持
+- 一致的构建体验
+- 完善的文档说明

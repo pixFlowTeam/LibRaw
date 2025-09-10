@@ -1,186 +1,268 @@
-# LibRaw 测试脚本说明
+# LibRaw 测试说明
 
-本目录包含了用于测试 LibRaw 构建结果的自动化测试脚本。
+本目录包含了用于测试 LibRaw 构建结果的说明。
 
-## 测试脚本概览
+## 测试方法
 
-### 1. `test-binaries.sh` - 完整测试脚本
-**功能**: 全面测试所有平台的构建结果
-**特点**: 
-- 测试 macOS 和 Windows 两个平台
-- 检查文件存在性、格式、运行功能
-- 生成详细的测试报告和日志
-- 适合 CI/CD 集成
+### 1. 构建测试
 
-**用法**:
+使用统一构建脚本进行构建测试：
+
 ```bash
-./scripts/test-binaries.sh
+# 构建所有平台
+./scripts/build-unified.sh all
+
+# 构建特定平台
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh windows-x64
+./scripts/build-unified.sh macos-x64
+./scripts/build-unified.sh linux-x64
 ```
 
-### 2. `test-platform.sh` - 分平台测试脚本
-**功能**: 可以单独测试指定平台或所有平台
-**特点**:
-- 支持单独测试 macOS 或 Windows 平台
-- 支持命令行参数和帮助信息
-- 适合开发过程中的快速测试
+### 2. 构建验证
 
-**用法**:
+构建完成后，检查生成的文件：
+
 ```bash
-# 测试所有平台
-./scripts/test-platform.sh
+# 检查库文件
+ls -la build/macos-arm64/lib/
+ls -la build/windows-x64/lib/
+ls -la build/macos-x64/lib/
+ls -la build/linux-x64/lib/
 
-# 只测试 macOS
-./scripts/test-platform.sh macos
-
-# 只测试 Windows
-./scripts/test-platform.sh windows
-
-# 显示帮助
-./scripts/test-platform.sh --help
+# 检查可执行文件
+ls -la build/macos-arm64/bin/
+ls -la build/windows-x64/bin/
+ls -la build/macos-x64/bin/
+ls -la build/linux-x64/bin/
 ```
 
-### 3. `quick-test.sh` - 快速测试脚本
-**功能**: 快速验证关键工具是否正常构建
-**特点**:
-- 只测试最重要的几个工具
-- 运行速度快
-- 适合构建后的快速验证
+### 3. 功能测试
 
-**用法**:
+运行示例程序进行功能测试：
+
 ```bash
-./scripts/quick-test.sh
+# macOS ARM64
+cd build/macos-arm64
+./bin/raw-identify --help
+./bin/dcraw_emu --help
+
+# macOS x64
+cd build/macos-x64
+./bin/raw-identify --help
+./bin/dcraw_emu --help
+
+# Linux x64
+cd build/linux-x64
+./bin/raw-identify --help
+./bin/dcraw_emu --help
 ```
 
-## 测试内容
+## 测试平台
 
-### 文件存在性检查
-- 检查所有二进制文件是否存在
-- 检查静态库文件是否存在
-- 验证目录结构完整性
+### 支持的平台
+- **macos-arm64**: macOS Apple Silicon
+- **macos-x64**: macOS Intel
+- **windows-x64**: Windows 64位 (MinGW-w64)
+- **linux-x64**: Linux 64位
 
-### 文件格式验证
-- **macOS**: 验证 Mach-O 64-bit executable arm64 格式
-- **Windows**: 验证 PE32+ executable (console) x86-64 格式
-- **静态库**: 验证 ar archive 格式
+### 平台特定测试
 
-### 功能测试
-- **macOS**: 测试所有工具的命令行帮助功能
-- **Windows**: 由于跨平台限制，只检查文件格式
-- 验证程序能正常启动和显示帮助信息
-
-### 静态库检查
-- 验证库文件格式正确
-- 统计包含的目标文件数量
-- 检查库文件大小
-
-## 测试工具列表
-
-每个平台都会测试以下 9 个工具：
-
-1. **raw-identify** - RAW 文件识别工具
-2. **dcraw_emu** - 完整的 dcraw 模拟器
-3. **dcraw_half** - 半尺寸处理工具
-4. **simple_dcraw** - 简化版 dcraw
-5. **4channels** - 四通道处理工具
-6. **rawtextdump** - RAW 数据导出工具
-7. **unprocessed_raw** - 未处理 RAW 工具
-8. **multirender_test** - 多渲染测试工具
-9. **postprocessing_benchmark** - 后处理性能测试工具
-
-## 输出说明
-
-### 成功标识
-- ✅ 表示测试通过
-- 绿色文字显示成功信息
-
-### 错误标识
-- ❌ 表示测试失败
-- 红色文字显示错误信息
-
-### 信息标识
-- ℹ️ 表示一般信息
-- 蓝色文字显示信息
-
-### 警告标识
-- ⚠️ 表示警告信息
-- 黄色文字显示警告
-
-## 测试报告
-
-每个测试脚本都会生成测试报告，包含：
-- 测试时间
-- 总测试数量
-- 通过测试数量
-- 失败测试数量
-- 成功率百分比
-
-## 日志文件
-
-`test-binaries.sh` 会生成带时间戳的日志文件：
-- 格式: `test-results-YYYYMMDD-HHMMSS.log`
-- 包含所有测试的详细输出
-- 便于问题排查和记录
-
-## 集成到构建流程
-
-### 在构建脚本中添加测试
+#### macOS 平台
 ```bash
-# 构建完成后自动运行测试
-./scripts/build-unified.sh
-./scripts/test-binaries.sh
+# 构建 macOS 平台
+./scripts/build-unified.sh macos-arm64
+./scripts/build-unified.sh macos-x64
+
+# 检查架构
+file build/macos-arm64/lib/liblibraw.a
+file build/macos-x64/lib/liblibraw.a
+
+# 运行测试
+cd build/macos-arm64 && ./bin/raw-identify --help
+cd build/macos-x64 && ./bin/raw-identify --help
 ```
 
-### 快速验证构建结果
+#### Windows 平台
 ```bash
-# 构建完成后快速验证
-./scripts/quick-test.sh
+# 构建 Windows 平台
+./scripts/build-unified.sh windows-x64
+
+# 检查文件
+ls -la build/windows-x64/lib/
+ls -la build/windows-x64/bin/
+
+# 在 Windows 环境中运行
+# build/windows-x64/bin/raw-identify.exe --help
 ```
 
-### 分平台验证
+#### Linux 平台
 ```bash
-# 只验证 macOS 构建
-./scripts/test-platform.sh macos
+# 构建 Linux 平台
+./scripts/build-unified.sh linux-x64
 
-# 只验证 Windows 构建
-./scripts/test-platform.sh windows
+# 检查文件
+ls -la build/linux-x64/lib/
+ls -la build/linux-x64/bin/
+
+# 运行测试
+cd build/linux-x64 && ./bin/raw-identify --help
+```
+
+## 测试选项
+
+### 构建选项
+```bash
+# 清理构建
+./scripts/build-unified.sh all --clean
+
+# 调试构建
+./scripts/build-unified.sh macos-arm64 --debug
+
+# 详细输出
+./scripts/build-unified.sh windows-x64 --verbose
+
+# 更多并行任务
+./scripts/build-unified.sh all --jobs 8
+```
+
+### 验证选项
+```bash
+# 检查文件大小
+du -sh build/*/lib/*.a
+
+# 检查文件类型
+file build/*/lib/*.a
+
+# 检查依赖
+otool -L build/macos-arm64/bin/raw-identify  # macOS
+ldd build/linux-x64/bin/raw-identify         # Linux
 ```
 
 ## 故障排除
 
 ### 常见问题
 
-1. **权限错误**
+1. **构建失败**
    ```bash
-   chmod +x scripts/*.sh
+   # 查看详细输出
+   ./scripts/build-unified.sh macos-arm64 --verbose
+   
+   # 清理后重新构建
+   ./scripts/build-unified.sh macos-arm64 --clean
    ```
 
-2. **路径错误**
-   - 确保在 LibRaw 项目根目录运行脚本
-   - 检查构建目录是否存在
+2. **文件不存在**
+   ```bash
+   # 检查构建目录
+   ls -la build/
+   
+   # 检查特定平台
+   ls -la build/macos-arm64/
+   ```
 
-3. **测试失败**
-   - 查看详细日志文件
-   - 检查构建是否成功完成
-   - 验证二进制文件权限
+3. **权限问题**
+   ```bash
+   # 给脚本添加执行权限
+   chmod +x scripts/build-unified.sh
+   ```
 
-### 调试模式
+4. **依赖缺失**
+   ```bash
+   # macOS
+   xcode-select --install
+   
+   # Ubuntu/Debian
+   sudo apt-get install build-essential
+   
+   # MinGW-w64 (macOS)
+   brew install mingw-w64
+   ```
 
-使用详细输出模式获取更多信息：
-```bash
-./scripts/test-platform.sh --verbose macos
+## 持续集成
+
+### GitHub Actions 示例
+
+```yaml
+name: Build Test
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Build LibRaw
+      run: |
+        cd LibRaw
+        ./scripts/build-unified.sh all
 ```
 
-## 扩展测试
+### 本地测试脚本
 
-如需添加新的测试内容，可以修改相应的测试脚本：
+```bash
+#!/bin/bash
+# test-all-platforms.sh
 
-1. **添加新工具测试**: 在 `binaries` 数组中添加新工具名称
-2. **添加新检查项**: 在相应的测试函数中添加新的检查逻辑
-3. **修改测试参数**: 调整期望的退出码或测试命令
+set -e
 
-## 注意事项
+echo "开始测试所有平台..."
 
-1. **跨平台限制**: Windows 二进制文件无法在 macOS 上直接运行
-2. **依赖检查**: 确保测试环境有必要的工具（file, ar 等）
-3. **权限要求**: 确保脚本有执行权限
-4. **路径依赖**: 脚本假设在 LibRaw 项目根目录运行
+# 构建所有平台
+cd LibRaw
+./scripts/build-unified.sh all
+
+# 检查构建结果
+for platform in macos-arm64 macos-x64 windows-x64 linux-x64; do
+    echo "检查平台: $platform"
+    if [ -f "build/$platform/lib/liblibraw.a" ]; then
+        echo "✅ $platform 构建成功"
+    else
+        echo "❌ $platform 构建失败"
+        exit 1
+    fi
+done
+
+echo "✅ 所有平台测试通过"
+```
+
+## 性能测试
+
+### 构建时间测试
+
+```bash
+# 记录构建时间
+time ./scripts/build-unified.sh all
+
+# 单平台构建时间
+time ./scripts/build-unified.sh macos-arm64
+time ./scripts/build-unified.sh windows-x64
+time ./scripts/build-unified.sh macos-x64
+time ./scripts/build-unified.sh linux-x64
+```
+
+### 文件大小测试
+
+```bash
+# 检查库文件大小
+du -sh build/*/lib/*.a
+
+# 检查可执行文件大小
+du -sh build/*/bin/*
+```
+
+## 总结
+
+LibRaw 的统一构建系统提供了简单易用的测试方法：
+
+1. **统一接口**: 使用 `build-unified.sh` 脚本
+2. **多平台支持**: 支持 4 个主要平台
+3. **灵活选项**: 支持清理、调试、详细输出等选项
+4. **易于集成**: 适合 CI/CD 和自动化测试
+
+通过遵循本指南，您可以有效地测试 LibRaw 在不同平台上的构建和功能。
